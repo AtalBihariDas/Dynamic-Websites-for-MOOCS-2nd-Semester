@@ -1,0 +1,127 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    background: linear-gradient(135deg, #1e1e2f, #2c3e50);
+    color: #fff;
+}
+
+/* Header */
+header {
+    background: rgba(0,0,0,0.6);
+    backdrop-filter: blur(10px);
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header input {
+    padding: 8px 12px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+}
+
+/* Layout */
+.container {
+    display: flex;
+}
+
+/* Sidebar */
+aside {
+    width: 200px;
+    background: rgba(0,0,0,0.5);
+    padding: 15px;
+}
+
+aside button {
+    width: 100%;
+    margin: 10px 0;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    background: linear-gradient(45deg, #ff7b00, #ffb347);
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+aside button:hover {
+    transform: scale(1.05);
+}
+
+/* Main */
+main {
+    flex: 1;
+    padding: 20px;
+}
+
+/* Form */
+form {
+    margin-bottom: 15px;
+}
+
+form input {
+    margin: 5px;
+    padding: 10px;
+    border-radius: 6px;
+    border: none;
+    outline: none;
+}
+
+form button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 6px;
+    background: #00c6ff;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+form button:hover {
+    background: #0072ff;
+}
+
+/* Table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: rgba(255,255,255,0.05);
+    backdrop-filter: blur(8px);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+th {
+    background: rgba(255,255,255,0.1);
+}
+
+td, th {
+    padding: 12px;
+    text-align: center;
+}
+
+tr:hover {
+    background: rgba(255,255,255,0.08);
+}
+
+/* Buttons */
+td button {
+    padding: 6px 10px;
+    border: none;
+    border-radius: 5px;
+    margin: 2px;
+    cursor: pointer;
+}
+
+td button:first-child {
+    background: #00c853;
+    color: white;
+}
+
+td button:last-child {
+    background: #ff3d00;
+    color: white;
+}

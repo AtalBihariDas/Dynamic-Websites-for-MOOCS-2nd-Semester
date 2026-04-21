@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Management</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h2>Student Management</h2>
+    <input type="text" id="search" placeholder="Search Enrollment No">
+</header>
+
+<div class="container">
+
+    <aside>
+        <button onclick="setStream('Arts')">Arts</button>
+        <button onclick="setStream('Commerce')">Commerce</button>
+        <button onclick="setStream('Science')">Science</button>
+    </aside>
+
+    <main>
+        <h3 id="title">Arts</h3>
+
+        <form id="form">
+            <input type="text" id="name" placeholder="Name" required>
+            <input type="text" id="enroll" placeholder="Enrollment No" required>
+            <input type="number" id="marks" placeholder="Marks" required>
+            <button type="submit">Save</button>
+        </form>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Enrollment</th>
+                    <th>Marks</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody id="table"></tbody>
+        </table>
+    </main>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
