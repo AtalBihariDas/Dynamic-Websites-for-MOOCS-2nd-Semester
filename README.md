@@ -37,7 +37,7 @@ A dynamic e-commerce interface where users can browse products, add them to a ca
 
 ---
 
-## 🎓 2. Student Management System
+##  2. Student Management System
 
 ###  Overview
 
@@ -98,7 +98,7 @@ A dynamic system to manage student records across multiple streams with search f
 
 ---
 
-## 🎯 Learning Outcomes
+##  Learning Outcomes
 
 * DOM manipulation
 * Event handling in JavaScript
