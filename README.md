@@ -55,7 +55,7 @@ A dynamic system to manage student records across multiple streams with search f
 * Search student by Enrollment ID
 * Display student details dynamically
 
-### 🛠️ Technologies Used
+###  Technologies Used
 
 * HTML
 * CSS
